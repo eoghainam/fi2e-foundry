@@ -22,8 +22,8 @@
   "gridUnits": "m",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "stability",
-  "url": "",
-  "manifest": "",
-  "download": "",
+  "url": "https://github.com/eoghainam/fi2e-foundry",
+  "manifest": "https://raw.githubusercontent.com/eoghainam/fi2e-foundry/main/system.json",
+  "download": "https://github.com/eoghainam/fi2e-foundry/archive/main.zip",
   "license": "LICENSE.txt"
 }
