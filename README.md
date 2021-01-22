@@ -3,7 +3,8 @@
 
 Currently unusable.
 
-Uses the Gumshoe System by Pelgrane Press
+Fear Itself and the Gumshoe System belong to Pelgrane Press
+
 
 ---
 
