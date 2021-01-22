@@ -1,0 +1,248 @@
+{
+  "Actor": {
+    "types": ["character", "NPC"],
+    "templates": {
+      "base": {
+		"abilities":{}
+      }
+    },
+    "character": {
+      "templates": ["base"],
+	  "name":"",
+      "concept": "",
+	  "sourcesOfStability":"",
+	  "abilities":{
+		"academic":{
+			"history":{
+				"value": 0,
+				"max":0
+				},
+			"humanities":{
+				"value": 0,
+				"max":0
+				},
+			"languages":{
+				"value": 0,
+				"max":0
+				},
+			"law":{
+				"value": 0,
+				"max":0
+				},
+			"occultStudies":{
+				"value": 0,
+				"max":0
+				},
+			"research":{
+				"value": 0,
+				"max":0
+				},
+			"socialSciences":{
+				"value": 0,
+				"max":0
+				},
+			"trivia":{
+				"value": 0,
+				"max":0
+				}
+		},
+		"interpersonal":{
+			"bullpoopDetector":{
+				"value": 0,
+				"max":0
+				},
+			"bureaucracy":{
+				"value": 0,
+				"max":0
+				},
+			"copTalk":{
+				"value": 0,
+				"max":0
+				},
+			"flattery":{
+				"value": 0,
+				"max":0
+				},
+			"flirting":{
+				"value": 0,
+				"max":0
+				},
+			"impersonate":{
+				"value": 0,
+				"max":0
+				},
+			"interrogation":{
+				"value": 0,
+				"max":0
+				},
+			"intimidation":{
+				"value": 0,
+				"max":0
+				},
+			"negotiation":{
+				"value": 0,
+				"max":0
+				},
+			"reassurance":{
+				"value": 0,
+				"max":0
+				},
+			"streetwise":{
+				"value": 0,
+				"max":0
+				}
+		},
+		"technical":{
+			"computerUse":{
+				"value": 0,
+				"max":0
+				},
+			"investagativeProcedure":{
+				"value": 0,
+				"max":0
+				},
+			"medicine":{
+				"value": 0,
+				"max":0
+				},
+			"notice":{
+				"value": 0,
+				"max":0
+				},
+			"outdoorSurvival":{
+				"value": 0,
+				"max":0
+				},
+			"photography":{
+				"value": 0,
+				"max":0
+				},
+			"science":{
+				"value": 0,
+				"max":0
+				}
+		},
+		"general":{
+			"athletics":{
+				"value": 0,
+				"max":0
+				},
+			"driving":{
+				"value": 0,
+				"max":0
+				},
+			"filch":{
+				"value": 0,
+				"max":0
+				},
+			"fleeing":{
+				"value": 0,
+				"max":0
+				},
+			"health":{
+				"value": 0,
+				"max":0
+				},
+			"hiding":{
+				"value": 0,
+				"max":0
+				},
+			"infiltration":{
+				"value": 0,
+				"max":0
+				},
+			"mechanics":{
+				"value": 0,
+				"max":0
+				},
+			"medic":{
+				"value": 0,
+				"max":0
+				},
+			"preparedness":{
+				"value": 0,
+				"max":0
+				},
+			"scuffling":{
+				"value": 0,
+				"max":0
+				},
+			"senseTrouble":{
+				"value": 0,
+				"max":0
+				},
+			"shooting":{
+				"value": 0,
+				"max":0
+				},
+			"shrink":{
+				"value": 0,
+				"max":0
+				},
+			"stability":{
+				"value": 0,
+				"max":0
+				}
+		},
+		"psychic":{
+			"auraReading":{
+				"value": 0,
+				"max":0
+				},
+			"medium":{
+				"value": 0,
+				"max":0
+				},
+			"messenger":{
+				"value": 0,
+				"max":0
+				},
+			"premonitions":{
+				"value": 0,
+				"max":0
+				},
+			"remoteViewing":{
+				"value": 0,
+				"max":0
+				},
+			"sensitive":{
+				"value": 0,
+				"max":0
+				},
+			"synchronicity":{
+				"value": 0,
+				"max":0
+				}
+		}
+	  },
+	  "inventory":{
+		"weapons":{},
+		"items":{},
+		"clues":{}
+	},
+	  "notes":{
+		"notes":""
+	  }
+    }
+  },
+  "Item": {
+    "types": ["weapons","items","clues"],
+    "templates": {
+      "base": {
+        "description": ""
+      }
+    },
+    "weapons": {
+      "templates": ["base"],
+      "quantity": 1,
+      "weight": 0
+    },
+    "items": {
+      "templates": ["base"]
+    },
+    "clues": {
+      "templates": ["base"],
+      "spellLevel": 1
+    }
+  }
+}
