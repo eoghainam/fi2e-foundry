@@ -7,10 +7,12 @@
       }
     },
     "character": {
-      "templates": ["base"],
-	  "name":"",
-      "concept": "",
-	  "sourcesOfStability":"",
+	  "templates": ["base"],
+	  "details":{
+	  	"name":"",
+      	"concept": "",
+	  	"sourcesOfStability":""
+	  },
 	  "abilities":{
 		"academic":{
 			"history":{
