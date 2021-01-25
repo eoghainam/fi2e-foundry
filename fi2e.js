@@ -6,6 +6,6 @@ Hooks.once("init", function(){
 
     CONFIG.fi2e = fi2e;
 
-    Actors.unregisterSheet("core",ActorSheet);
+    Actors.unregisterSheet("core", ActorSheet);
     Actors.registerSheet("fi2e", FI2ENamedCharacterSheet, {makeDefault: true});
 });
