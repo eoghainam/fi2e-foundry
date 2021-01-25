@@ -1,4 +1,4 @@
-import { fi2e } from "./module/config.js";
+//import { fi2e } from "./module/config.js";
 import FI2ENamedCharacterSheet from "./module/sheets/FI2ENamedCharacterSheet.js";
 
 Hooks.once("init", function(){
