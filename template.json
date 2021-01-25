@@ -9,7 +9,7 @@
     "character": {
 	  "templates": ["base"],
 	  "details":{
-	  	"concept": "",
+	  	"concept": "concept",
 	  	"sourcesOfStability":""
 	  },
 	  "abilities":{
