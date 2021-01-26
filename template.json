@@ -3,8 +3,71 @@
     "types": ["character", "NPC"],
     "templates": {
       "base": {
-		"abilities":{}
-      }
+		"abilities":{
+			"general":{
+				"athletics":{
+					"value": 0,
+					"max":0
+					},
+				"driving":{
+					"value": 0,
+					"max":0
+					},
+				"filch":{
+					"value": 0,
+					"max":0
+					},
+				"fleeing":{
+					"value": 0,
+					"max":0
+					},
+				"health":{
+					"value": 0,
+					"max":0
+					},
+				"hiding":{
+					"value": 0,
+					"max":0
+					},
+				"infiltration":{
+					"value": 0,
+					"max":0
+					},
+				"mechanics":{
+					"value": 0,
+					"max":0
+					},
+				"medic":{
+					"value": 0,
+					"max":0
+					},
+				"preparedness":{
+					"value": 0,
+					"max":0
+					},
+				"scuffling":{
+					"value": 0,
+					"max":0
+					},
+				"senseTrouble":{
+					"value": 0,
+					"max":0
+					},
+				"shooting":{
+					"value": 0,
+					"max":0
+					},
+				"shrink":{
+					"value": 0,
+					"max":0
+					},
+				"stability":{
+					"value": 0,
+					"max":0
+					}
+				}
+			}
+      	}
     },
     "character": {
 	  "templates": ["base"],
@@ -124,66 +187,6 @@
 				}
 		},
 		"general":{
-			"athletics":{
-				"value": 0,
-				"max":0
-				},
-			"driving":{
-				"value": 0,
-				"max":0
-				},
-			"filch":{
-				"value": 0,
-				"max":0
-				},
-			"fleeing":{
-				"value": 0,
-				"max":0
-				},
-			"health":{
-				"value": 0,
-				"max":0
-				},
-			"hiding":{
-				"value": 0,
-				"max":0
-				},
-			"infiltration":{
-				"value": 0,
-				"max":0
-				},
-			"mechanics":{
-				"value": 0,
-				"max":0
-				},
-			"medic":{
-				"value": 0,
-				"max":0
-				},
-			"preparedness":{
-				"value": 0,
-				"max":0
-				},
-			"scuffling":{
-				"value": 0,
-				"max":0
-				},
-			"senseTrouble":{
-				"value": 0,
-				"max":0
-				},
-			"shooting":{
-				"value": 0,
-				"max":0
-				},
-			"shrink":{
-				"value": 0,
-				"max":0
-				},
-			"stability":{
-				"value": 0,
-				"max":0
-				}
 		},
 		"psychic":{
 			"auraReading":{
