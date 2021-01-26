@@ -9,8 +9,8 @@
     "character": {
 	  "templates": ["base"],
 	  "details":{
-	  	"concept": "concept",
-	  	"sourcesOfStability":""
+	  	"concept": "Concept",
+	  	"sourcesOfStability":"Sources of Stability"
 	  },
 	  "abilities":{
 		"academic":{
