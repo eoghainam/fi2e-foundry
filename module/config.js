@@ -1,1 +1,1 @@
-// placeholder
+export const fi2e = {};
