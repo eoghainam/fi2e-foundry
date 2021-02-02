@@ -8,4 +8,7 @@ Hooks.once("init", function(){
 
     Actors.unregisterSheet("core", ActorSheet);
     Actors.registerSheet("fi2e", FI2ENamedCharacterSheet, {makeDefault: true});
+
+    Items.unregisterSheet("core", ItemSheet);
+    Items.registerSheet("fi2e", FI2EItemSheet, {makeDefault: true});
 });
