@@ -1,5 +1,6 @@
 import { fi2e } from "./module/config.js";
 import FI2ENamedCharacterSheet from "./module/sheets/FI2ENamedCharacterSheet.js";
+import FI2EItemSheet from "./modules/sheets/FI2EItemSheet.js";
 
 Hooks.once("init", function(){
     console.log("fi2e | initialising Fear Itself 2nd edition system");
