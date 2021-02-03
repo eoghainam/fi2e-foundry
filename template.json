@@ -24,24 +24,24 @@
     }
   },
   "Item": {
-    "types": ["weapons","items","clues","abilities"],
+    "types": ["weapon","item","clue","ability"],
     "templates": {
       "base": {
       }
     },
-    "weapons": {
+    "weapon": {
       "templates": ["base"],
       "quantity": 1,
       "weight": 0
     },
-    "items": {
+    "item": {
       "templates": ["base"]
     },
-    "clues": {
+    "clue": {
       "templates": ["base"],
       "spellLevel": 1
 	},
-	"abilities":{
+	"ability":{
 		"templates": ["base"],
 		"name":"",
 		"type":"",
