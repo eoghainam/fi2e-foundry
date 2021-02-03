@@ -7,7 +7,7 @@ export default class FI2EItemSheet extends ItemSheet {
     
     static get defaultOptions(){
         return mergeObject(super.defaultOptions, {
-            template: `systems/fi2e-foundry/templates/sheets/${this.item.data.typr}-sheet.hbs`,
+            template: `systems/fi2e-foundry/templates/sheets/${this.item.data.type}-sheet.hbs`,
             classes: ["fi2e", "sheet", "item"]
         });
     }
