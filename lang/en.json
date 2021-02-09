@@ -1,6 +1,7 @@
 {
     "fi2e": {
         "details":{
+            "name":"Name",
             "concept":"Concept",
             "sourcesOfStability":"Sources of Stability"
         },

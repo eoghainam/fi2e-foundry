@@ -2,7 +2,7 @@
     <header class="sheet-header">
         <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="64" width="64" />
         <div class="header-fields">
-            <h1><input name="name" type="text" value="{{actor.name}}" placeholder="Name" /></h1>
+            <h1><input name="name" type="text" value="{{actor.name}}" placeholder="{{localize "fi2e.details.name"}}" /></h1>
             <div class="details">
                 <div class="concept">
                     <p>{{localize "fi2e.details.concept"}}</p>
@@ -11,7 +11,7 @@
                 </div>
                 <div class="sourcesOfStability">
                     <p>{{localize "fi2e.details.sourcesOfStability"}}</p>
-                    {{editor content=data.details.sourcesOfStability target="data.details.sourcesOfStability" button=true owner=owner editable=editable}}
+                    {{editor content="data.details.sourcesOfStability" target="data.details.sourcesOfStability" button=true owner=owner editable=editable}}
                 
                 </div>
             </div>
