@@ -1,23 +1,35 @@
-<form class="{{cssClass}}" autocomplete="off">
+<form class="{{cssClass}} flexcol" autocomplete="off">
+    {{!-- Sheet Header --}}
     <header class="sheet-header">
         <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="64" width="64" />
-        <h1><input name="name" type="text" value="{{actor.name}}" placeholder="Name" /></h1>
+        <div class="header-fields">
+            <h1><input name="name" type="text" value="{{actor.name}}" placeholder="Name" /></h1>
+            <div class="details">
+                <div class="concept">
+                    <p>fi2e.details.concept</p>
+                    {{editor content=data.details.concept target=data.details.concept button=true owner=owner editable=editable}}
+                
+                </div>
+                <div class="sourcesOfStability">
+                    <p>fi2e.details.sourcesOfStability</p>
+                    {{editor content=data.details.sourcesOfStability target=data.details.sourcesOfStability button=true owner=owner editable=editable}}
+                
+                </div>
+            </div>
+        </div>
     </header>
-    <div class="details">
-        <p class="concept">
-            <div data-edit="data.details.concept" contenteditable="true">
-                {{data.details.concept}}
-            </div>
-        </p>
-        <p class="sourcesOfStability">
-            <div data-edit="data.details.sourcesOfStability" contenteditable="true">
-                {{data.details.sourcesOfStability}}
-            </div>
-        </p>
-    </div>
-    <div class="abilites"> 
-        
-    </div>
+    
+    {{!-- Sheet Tab Navigation --}}
+    <nav class="sheet-tabs tabs" data-group="primary">
+        <a class="item" data-tab="abilities">fi2e.tabs.abilities</a>
+        <a class="item" data-tab="description">fi2e.tabs.description</a>
+        <a class="item" data-tab="inventory">fi2e.tabs.inventory</a>
+    </nav>
 
-    <p>"hello"</p>
+    {{!-- Sheet Body --}}
+    <section class="sheet-body">
+        {{!-- Tab content goes here --}}
+
+
+    </section>
 </form>

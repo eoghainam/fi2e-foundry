@@ -1,5 +1,13 @@
 {
     "fi2e": {
-        
+        "details":{
+            "concept":"Concept",
+            "sourcesOfStability":"Sources of Stability"
+        },
+        "tabs":{
+            "abilities":"Abilities",
+            "description":"Description",
+            "Inventory":"Inventory"
+        }
     }
 }
