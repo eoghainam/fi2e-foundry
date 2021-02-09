@@ -7,7 +7,7 @@
         "tabs":{
             "abilities":"Abilities",
             "description":"Description",
-            "Inventory":"Inventory"
+            "inventory":"Inventory"
         }
     }
 }
