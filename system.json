@@ -16,7 +16,13 @@
       "lang": "en",
       "name": "English",
       "path": "lang/en.json"
+    },
+    {
+      "lang":"gd",
+      "name":"Scottish Gaelic - Gàidhlig",
+      "path":"lang/gd.json"
     }
+
   ],
   "gridDistance": 5,
   "gridUnits": "m",
