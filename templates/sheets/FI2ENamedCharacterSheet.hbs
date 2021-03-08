@@ -3,18 +3,6 @@
         <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="64" width="64" />
         <div class="header-fields">
             <h1><input name="name" type="text" value="{{actor.name}}" placeholder="{{localize "fi2e.details.name"}}" /></h1>
-            <div class="details">
-                <div class="concept">
-                    <p>{{localize "fi2e.details.concept"}}</p>
-                    {{editor content=data.details.concept target="data.details.concept" button=true owner=owner editable=editable}}
-                
-                </div>
-                <div class="sourcesOfStability">
-                    <p>{{localize "fi2e.details.sourcesOfStability"}}</p>
-                    {{editor content=data.details.sourcesOfStability target="data.details.sourcesOfStability" button=true owner=owner editable=editable}}
-                
-                </div>
-            </div>
         </div>
     </header>
 
@@ -39,10 +27,21 @@
             </div>
         </div>
         <div class="tab description" data-group="primary" data-tab="description">
-
+            <div class="details">
+                <div class="concept"><p>{{localize "fi2e.details.concept"}}</p>{{editor content=data.details.concept target="data.details.concept" button=true owner=owner editable=editable}}</div>
+                <div class="sourcesOfStability"><p>{{localize "fi2e.details.sourcesOfStability"}}</p>{{editor content=data.details.sourcesOfStability target="data.details.sourcesOfStability" button=true owner=owner editable=editable}}
+                </div>
+            </div>
+            <div class="bio">{{editor content=data.details.bio target="data.details.bio" button=true owner=owner editable=editable}}</div>
+            <div class="group">{{editor content=data.details.group target="data.details.group" button=true owner=owner editable=editable}}</div>
+            <div class="suspects">{{editor content=data.details.suspects target="data.details.suspects" button=true owner=owner editable=editable}}</div>
+            <div class="locations">{{editor content=data.details.locations target="data.details.locations" button=true owner=owner editable=editable}}</div>
+            <div class="notes">{{editor content=data.details.notes target="data.details.notes" button=true owner=owner editable=editable}}</div>
         </div>
         <div class="tab inventory" data-group="primary" data-tab="inventory">
-            
+            <div class="items"></div>
+            <div class="clues"></div>
+            <div class="weapons"></div>
         </div>
         
 

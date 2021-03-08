@@ -9,6 +9,28 @@
             "abilities":"Abilities",
             "description":"Description",
             "inventory":"Inventory"
+        },
+        "abilites":{
+            "investigative":"Investigative",
+            "academic":"Academic",
+            "interpersonal":"Interpesonal",
+            "technical":"Technical",
+            "psychic":"Psychic Powers",
+            "general":"General",
+            "core":"Core"
+        },
+        "description":{
+            "bio":"Biography",
+            "group":"Group",
+            "suspects":"Suspects",
+            "locations":"Locations",
+            "notes":"Notes"
+        },
+        "inventory":{
+            "items":"Items",
+            "clues":"Clues",
+            "weapons":"Weapons"
         }
+        
     }
 }

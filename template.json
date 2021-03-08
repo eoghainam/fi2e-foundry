@@ -8,7 +8,12 @@
 	  "templates": ["base"],
 	  "details":{
 	  	"concept": "Concept",
-	  	"sourcesOfStability":"Sources of Stability"
+	  	"sourcesOfStability":"Sources of Stability",
+      "bio":"Bio",
+      "group":"Group",
+      "suspects":"Suspects",
+      "locations":"Locations",
+      "notes":"Notes"
 	  },
 	  "abilities":{
 				}
